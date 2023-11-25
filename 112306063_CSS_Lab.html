@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="112306063_CSS_Lab.css">
+    <title>CSS Lab</title>
+</head>
+
+<body>
+    <h1>My first style page</h1>
+
+    <div class="content-container">
+        <p class="center-text">Welcome to my homepage. Explore and enjoy!</p>
+
+        <ul class="navbar">
+            <li>Home</li>
+            <li>About</li>
+            <li class="dropdown" onclick="toggleDropdown('services-dropdown')">
+                Services
+                <select>
+                    <option>Web Design</option>
+                    <option>Graphic Design</option>
+                    <option>Digital Marketing</option>
+                </select>
+            </li>
+            <li>Contact</li>
+
+
+              
+        </ul>
+
+
+
+        <p>Hello, I'm a student from NCCU.</p>
+        <p>Feel free to send me a message: <a href="mailto:112306063@g.nccu.edu.tw">112306063@g.nccu.edu.tw</a></p>
+    </div>
+
+    <script>
+        function toggleDropdown(dropdownId) {
+            var dropdownContent = document.getElementById(dropdownId);
+            dropdownContent.style.display = (dropdownContent.style.display === 'block') ? 'none' : 'block';
+        }
+    </script>
+</body>
+
+</html>

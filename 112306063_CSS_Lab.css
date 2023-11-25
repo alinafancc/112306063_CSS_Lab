@@ -1,0 +1,91 @@
+/* External CSS Styles */
+
+body {
+    color: #fff;
+    background-color: #3498db;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.content-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+p {
+    margin: 20px;
+    color: #ecf0f1;
+    line-height: 1.6;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+    width: 100%; /* Full width */
+}
+
+.navbar li {
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.navbar li a:hover {
+    background-color: #555;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media all {
+    body {
+        /* Additional styles for all media */
+    }
+}
+
+@media print {
+    body {
+        /* Additional styles for print media */
+    }
+}
